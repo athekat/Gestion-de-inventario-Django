@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'PIG_Grupo5.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'HOST': config('DATABASE_HOST'),
         'PORT': config('DATABASE_PORT'),
         'NAME': config('DATABASE_NAME'),
